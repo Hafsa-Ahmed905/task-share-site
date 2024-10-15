@@ -38,6 +38,10 @@ public:
 	{
 		return speed;
 	}
+	void accelerate()
+	{
+		speed = speed + 5;
+	}
 	
 };
 int main()
